@@ -85,8 +85,8 @@ if ( ! function_exists( 'twentynineteen_setup' ) ) :
 		add_theme_support(
 			'custom-logo',
 			array(
-				'height'      => 190,
-				'width'       => 190,
+//				'height'      => 190,
+//				'width'       => 190,
 				'flex-width'  => false,
 				'flex-height' => false,
 			)
