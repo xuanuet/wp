@@ -20,7 +20,7 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 //		}
 //		?>
 <!--	</aside><!-- .widget-area -->
-	<footer>
+
 		<div class="ft__logo">
 			<img src="<?php echo(get_template_directory_uri()."/images/145x35.png") ?>" alt="logo">
 		</div>
@@ -72,7 +72,7 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 				<p>ダミーダミーダミーダミー</p>
 			</div>
 		</div>
-	</footer>
+
 
 
 <?php endif; ?>

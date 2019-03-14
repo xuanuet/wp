@@ -44,7 +44,7 @@
 //						)
 //					);
 //					?>
-<!--				</nav><!-- .footer-navigation -->-->
+<!--				</nav><!-- .footer-navigation -->
 <!--			--><?php //endif; ?>
 <!--		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
