@@ -38,7 +38,8 @@
 			</ul>
 		</nav>
 		<div class="nav__btn">
-			<a href="#"><img src=" <?php echo(get_template_directory_uri()."/images/btn_recruit.png") ?>" alt=""></a>
+			<?php $url_image= wp_get_upload_dir()?>
+			<a href="#"><img src=" <?php echo($url_image["url"]."/btn_recruit.png") ?>" alt=""></a>
 		</div>
 	</div>
 <!--	--><?php //if ( has_nav_menu( 'menu-1' ) ) : ?>

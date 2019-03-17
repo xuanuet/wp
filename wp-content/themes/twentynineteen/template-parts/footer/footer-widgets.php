@@ -22,7 +22,8 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 <!--	</aside><!-- .widget-area -->
 
 		<div class="ft__logo">
-			<img src="<?php echo(get_template_directory_uri()."/images/145x35.png") ?>" alt="logo">
+			<?php $url_image= wp_get_upload_dir()?>
+			<img src="<?php echo($url_image["url"]."/footer_img.png") ?>" alt="logo">
 		</div>
 		<div class="container">
 			<div class="ft__info">
