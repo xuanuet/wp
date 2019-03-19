@@ -14,7 +14,13 @@
 ?>
 
 	</div><!-- #content -->
-
+<?php $url_image= wp_get_upload_dir()?>
+<a href="<?php echo get_permalink( get_page_by_path( 'page-9' ) ) ?>"><img src=" " alt=""></a>
+	<div class="btn_toppage">
+		<a href="#">
+			<img src="<?php echo($url_image["url"]."/btn_top.png") ?>" alt="btn_top">
+		</a>
+	</div>
 	<footer id="colophon" class="site-footer">
 		<?php get_template_part( 'template-parts/footer/footer', 'widgets' ); ?>
 <!--		<div class="site-info">-->

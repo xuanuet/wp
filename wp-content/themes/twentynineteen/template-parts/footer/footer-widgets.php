@@ -59,7 +59,7 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 						</ul>
 					</div>
 					<div class="ft__contact">
-						<a class="btn" href="#">お問い合わせフォーム</a>
+						<a class="btn" href="<?php echo get_permalink( get_page_by_path( 'page-15' ) ) ?>">お問い合わせフォーム</a>
 						<div class="box__contact">
 							<p>お問い合わせフォーム</p>
 							<p>0568-47-0210</p>
